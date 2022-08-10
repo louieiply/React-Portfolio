@@ -1,0 +1,74 @@
+@font-face {
+    font-family: LeagueSpartan;
+    font-weight: bold;
+    src: url("../fonts/LeagueSpartan-Bold.otf") format("opentype");
+}
+.navbar{
+    min-height: 80px;
+}
+.nav-container{
+    padding-left: var(--bs-gutter-x,2rem);
+    padding-right: var(--bs-gutter-x,2rem);
+
+}
+.navbar-brand{
+    font-family: LeagueSpartan;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+
+} 
+.navbar li a{
+    font-family: LeagueSpartan;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.hero-image{
+    position: relative;
+    min-height: calc(100vh - 80px);
+    min-width: 90vw;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/heroimg.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.hero-text{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f8f8;
+    font-size: 40px;
+}
+.responsive-img{
+    max-width: 100%;
+    height: auto;
+}
+.row-x > *{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.aboutme-session{
+    padding: 30px 20px 30px 20px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 100;
+}
+.aboutme-header{
+    font-family: LeagueSpartan;
+    margin: 20px 20px 20px 20px;
+    font-weight: bold !important;
+
+}
+.aboutme-text{
+    font-family: LeagueSpartan;
+    margin: 20px 20px 20px 40px;
+    line-height: 2;
+    font-size: 18px;
+}
+.league-spartan{
+    
+}
