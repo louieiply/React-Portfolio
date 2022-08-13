@@ -29,6 +29,7 @@ export default function PortfolioContainer(){
         <div>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
+            <Footer/>
         </div>
     )
 }

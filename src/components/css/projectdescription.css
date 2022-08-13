@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Kantumruy+Pro&family=Poppins:wght@200&family=Roboto:wght@300;400;500;700;900&display=swap');
+.description-container{
+    font-family: 'Roboto', sans-serif;
+    background-color: #cedfe3;
+}
+.project-title{
+    font-weight:900;
+    font-size: xxx-large;
+}

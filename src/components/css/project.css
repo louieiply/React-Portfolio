@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Kantumruy+Pro&family=Poppins:wght@200&family=Roboto:wght@300;400;500;700&display=swap');
+.card-img{
+    height: 300px;
+}
+.card{
+    border: 0px !important; 
+}
+.card-body{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0% !important;
+    font-weight: 300;
+    border: 0px; 
+}
+.github-link{
+    color:black;
+    text-decoration: none;
+}
+.github-link:hover{
+    font-size: large;
+    color: black;
+    text-decoration: underline;
+}
+.github-text{
+    font-weight: 400;
+}
