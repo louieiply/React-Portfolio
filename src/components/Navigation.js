@@ -1,13 +1,11 @@
 import React from "react";
-
+import Header from "../components/Header";
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container nav-container">
-        <a className="navbar-brand" href="#">
-          Louie Ip <i className="fas fa-coffee fa-spin"></i>
-        </a>
+        <Header/>
         <button
           className="navbar-toggler"
           type="button"
