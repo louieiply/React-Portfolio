@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/project.css";
+
 
 function Navigation({ currentPage, handlePageChange }) {
   return (

@@ -1,4 +1,6 @@
 import React from "react";
+import "./css/project.css";
+
 const Project = ({projectTitle, projectDescription, projectImg, githubLink, deployedLink}) => {
     return(
         <div className="col-12 col-md-4 p-4">

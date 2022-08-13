@@ -1,0 +1,9 @@
+.left-panel{
+    border-right: 3px #343a40 solid
+}
+.download-link{
+    color:black;
+}
+ul>li{
+    list-style-type:lower-roman;
+}
