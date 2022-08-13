@@ -11,6 +11,8 @@ const Innercontainer = styled.div`
 `;
 
 function Resume() {
+
+
     return(
         <Outercontainer>
             <Innercontainer className='container-fiuld'>

@@ -13,11 +13,11 @@ textarea{
     border: 2px #a1c9e3 solid;
 }
 
-.title{
+.title{ 
     font-weight: 700;
     
 }
 
 textarea:focus, input:focus{
-    outline: none;
+    outline: black;
 }
